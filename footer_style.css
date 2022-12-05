@@ -1,0 +1,47 @@
+footer{
+    margin: 0 auto;
+    margin-top: 7rem;
+    width: 75%;
+    text-align: center;
+    /* height: 40vh; */
+    border-top: 3px solid;
+    border-image: linear-gradient(to right,#00a99d, 
+    #0071bc,
+    #29abe2) 1 10%;
+}
+p[connect]{
+font-size: 30px;
+margin: 20px 0 0 0;
+text-transform: capitalize;
+}
+p[paragraph]{
+    font-size: 20px;
+    line-height: 1cm;
+}
+p[paragraph] a{
+    font-size: 20px;
+    line-height: 1cm;
+    text-decoration: underline;
+}
+footer .links{
+    margin-top: 2rem;
+    /* margin-bottom: 3rem; */
+    height: 10vh;
+}
+footer .links a{
+    padding: 15px 15px;
+    background-image: linear-gradient(to top,#00a99d, 
+    #0071bc
+    );
+    border-radius:30px ;
+    opacity: .5;
+    /* height: 70vh; */
+}
+footer .links a:hover{
+    opacity: 1;
+    /* padding: 15px 20px; */
+    font-size: 30px;
+    margin-right: 15px;
+    margin-left: 15px;
+
+}
